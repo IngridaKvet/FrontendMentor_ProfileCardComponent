@@ -7,8 +7,18 @@ html,body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+  background: url(img/bg-pattern-top.svg), url(img/bg-pattern-bottom.svg);
+  background-position: right 52vw bottom 35vh, left 48vw top 52vh;
+  background-repeat: no-repeat, no-repeat;
+
     background-color: #19A2ae;
 }
+
+body{
+    height: 375px;
+}
+
 
 main{
 
