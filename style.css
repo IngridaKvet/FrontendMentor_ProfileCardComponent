@@ -46,11 +46,11 @@ img[src="img/bg-pattern-card.svg"] {
 img[src="img/image-victor.jpg"] {
   position: absolute;
   left: calc(50% - 56px);
-  top: calc(50% - 94px);
-    height: 94px;
-    width: 94px;
+  top: calc(50% - 106px);
+    height: 96px;
+    width: 96px;
     border-radius: 50%;
-    border: solid #fff 7px;
+    border: solid #fff 5px;
    
 }
 
@@ -98,12 +98,14 @@ h3{
     color: #969696;
     margin: 0;
     height: 8px;
+    letter-spacing: 3px;
 }
 
 .statsSection{
 display: flex;
 flex-direction: row;
-justify-content: space-around;
+justify-content: space-between;
+
 
 }
 
@@ -116,6 +118,15 @@ justify-content: space-around;
    margin-top: 27px;
    gap: 11px;
 }
+
+.statsSection>div:first-child{
+ margin-left: 54px;
+}
+
+.statsSection>div:last-child{
+      margin-right: 54px; 
+}
+
 
 .attribution { 
    font-size: 11px; 
