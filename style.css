@@ -92,15 +92,6 @@ h2{
     height: 11px;
 }
 
-h3{
-    font-size: 11px;
-    font-weight: 400;
-    color: #969696;
-    margin: 0;
-    height: 8px;
-    letter-spacing: 3px;
-}
-
 .statsSection{
 display: flex;
 flex-direction: row;
@@ -127,11 +118,20 @@ justify-content: space-between;
       margin-right: 54px; 
 }
 
+div.statsSection>div>h2{
+    font-size: 11px;
+    font-weight: 400;
+    color: #969696;
+    margin: 0;
+    height: 8px;
+    letter-spacing: 3px;
+}
+
 
 .attribution { 
    font-size: 11px; 
    text-align: center;
-   margin-top: 5px;
+   margin-top: 38px;
 }
 
 .attribution a { 
