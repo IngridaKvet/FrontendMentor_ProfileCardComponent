@@ -1,139 +1,124 @@
 html,body{
-    font-family: 'Kumbh Sans', sans-serif;
-    font-size: 18px;
-    height: 100%;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
-  background: url(img/bg-pattern-top.svg), url(img/bg-pattern-bottom.svg);
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url(img/bg-pattern-top.svg),url(img/bg-pattern-bottom.svg), #19A2ae;
   background-position: right 52vw bottom 35vh, left 48vw top 52vh;
   background-repeat: no-repeat, no-repeat;
-
-    background-color: #19A2ae;
 }
-
+   
 body{
-    height: 375px;
+  border-radius: 15px;
+  height: fit-content;
 }
-
 
 main{
-
-    margin-top: 19px;
-    width: 350px;
-    height: 375px;
-    border-radius: 15px;
-    box-shadow: 10px 10px 150px 10px #148396;
-    background-color: #fff; 
-    display: flex;
-    flex-direction: column;
-    min-height: 375px;
+  width: 350px;
+  height: 375px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 150px 10px #148396;
+  background-color: #fff; 
+  display: flex;
+  flex-direction: column;
+  min-height: 375px;
 }
-
-
 
 img[src="img/bg-pattern-card.svg"] {
-    border-radius: 15px 15px 0px 0px;
-      height: 141px;
-      width: 350px;
-    
+  border-radius: 15px 15px 0px 0px;
+  height: 141px;
+  width: 350px;  
 }
-
 
 img[src="img/image-victor.jpg"] {
   position: absolute;
   left: calc(50% - 56px);
   top: calc(50% - 106px);
-    height: 96px;
-    width: 96px;
-    border-radius: 50%;
-    border: solid #fff 5px;
-   
+  height: 96px;
+  width: 96px;
+  border-radius: 50%;
+  border: solid #fff 5px; 
 }
 
 .profileSection{
-    margin-top: 77px;
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    border-bottom: 1px solid #e8e8e8;
-
+  margin-top: 77px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  border-bottom: 1px solid #e8e8e8;
 }
 
 .profileSection>div{
-    display: flex;
-    flex-direction: row;
-    gap: 11px;
-
+  display: flex;
+  flex-direction: row;
+  gap: 11px;
 }
 
 h1{
-    margin: 0;
-    font-size: 18px;
-    font-weight: 700;
-    color: #2d3248;
-    height: 13px;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: #2d3248;
+  height: 13px;
 }
 
 h1#age{
-    font-weight: 400;
-    color: #6a6f81;
+  font-weight: 400;
+  color: #6a6f81;
 }
+
 h2{
-    margin: 0;
-    font-size: 15px;
-    font-weight: 400;
-    margin-top: 16px;
-    margin-bottom: 29px;
-    color: #6a6f81;
-    height: 11px;
+  margin: 0;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 16px;
+  margin-bottom: 29px;
+  color: #6a6f81;
+  height: 11px;
 }
 
 .statsSection{
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-
-
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-
 .statsSection>div{
-   display: flex;
-   flex-direction: column;
-   align-items:center;
-   justify-content: center;
-   margin-top: 27px;
-   gap: 11px;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  margin-top: 27px;
+  gap: 11px;
 }
 
 .statsSection>div:first-child{
- margin-left: 54px;
+  margin-left: 54px;
 }
 
 .statsSection>div:last-child{
-      margin-right: 54px; 
+  margin-right: 54px; 
 }
 
 div.statsSection>div>h2{
-    font-size: 11px;
-    font-weight: 400;
-    color: #969696;
-    margin: 0;
-    height: 8px;
-    letter-spacing: 3px;
+  font-size: 11px;
+  font-weight: 400;
+  color: #969696;
+  margin: 0;
+  height: 8px;
+  letter-spacing: 3px;
 }
 
-
 .attribution { 
-   font-size: 11px; 
-   text-align: center;
-   margin-top: 38px;
+  font-size: 11px; 
+  text-align: center;
+  margin-top: 38px;
 }
 
 .attribution a { 
-   color: hsl(228, 45%, 44%);
+  color: hsl(228, 45%, 44%);
 }
